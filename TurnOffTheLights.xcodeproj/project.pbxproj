@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E541C45D1B89B85D00CCE068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E541C45C1B89B85D00CCE068 /* main.m */; };
+		E541C4601B89B85D00CCE068 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E541C45F1B89B85D00CCE068 /* AppDelegate.m */; };
+		E541C4631B89B85D00CCE068 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E541C4621B89B85D00CCE068 /* ViewController.m */; };
+		E541C4661B89B85D00CCE068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E541C4641B89B85D00CCE068 /* Main.storyboard */; };
+		E541C4681B89B85D00CCE068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E541C4671B89B85D00CCE068 /* Images.xcassets */; };
+		E541C46B1B89B85D00CCE068 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E541C4691B89B85D00CCE068 /* LaunchScreen.xib */; };
+		E541C4771B89B85D00CCE068 /* TurnOffTheLightsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E541C4761B89B85D00CCE068 /* TurnOffTheLightsTests.m */; };
+		E541C4821B89B87400CCE068 /* DHLightGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E541C4811B89B87400CCE068 /* DHLightGameManager.m */; };
+		E541C4851B89B96A00CCE068 /* DHLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = E541C4841B89B96A00CCE068 /* DHLightView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E541C4711B89B85D00CCE068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E541C44F1B89B85C00CCE068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E541C4561B89B85C00CCE068;
+			remoteInfo = TurnOffTheLights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E541C4571B89B85D00CCE068 /* TurnOffTheLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnOffTheLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E541C45B1B89B85D00CCE068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E541C45C1B89B85D00CCE068 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E541C45E1B89B85D00CCE068 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E541C45F1B89B85D00CCE068 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E541C4611B89B85D00CCE068 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E541C4621B89B85D00CCE068 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E541C4651B89B85D00CCE068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E541C4671B89B85D00CCE068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E541C46A1B89B85D00CCE068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E541C4701B89B85D00CCE068 /* TurnOffTheLightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnOffTheLightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E541C4751B89B85D00CCE068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E541C4761B89B85D00CCE068 /* TurnOffTheLightsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurnOffTheLightsTests.m; sourceTree = "<group>"; };
+		E541C4801B89B87400CCE068 /* DHLightGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLightGameManager.h; sourceTree = "<group>"; };
+		E541C4811B89B87400CCE068 /* DHLightGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLightGameManager.m; sourceTree = "<group>"; };
+		E541C4831B89B96A00CCE068 /* DHLightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLightView.h; sourceTree = "<group>"; };
+		E541C4841B89B96A00CCE068 /* DHLightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLightView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E541C4541B89B85C00CCE068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E541C46D1B89B85D00CCE068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E541C44E1B89B85C00CCE068 = {
+			isa = PBXGroup;
+			children = (
+				E541C4591B89B85D00CCE068 /* TurnOffTheLights */,
+				E541C4731B89B85D00CCE068 /* TurnOffTheLightsTests */,
+				E541C4581B89B85D00CCE068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E541C4581B89B85D00CCE068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E541C4571B89B85D00CCE068 /* TurnOffTheLights.app */,
+				E541C4701B89B85D00CCE068 /* TurnOffTheLightsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E541C4591B89B85D00CCE068 /* TurnOffTheLights */ = {
+			isa = PBXGroup;
+			children = (
+				E541C45E1B89B85D00CCE068 /* AppDelegate.h */,
+				E541C45F1B89B85D00CCE068 /* AppDelegate.m */,
+				E541C4611B89B85D00CCE068 /* ViewController.h */,
+				E541C4621B89B85D00CCE068 /* ViewController.m */,
+				E541C4801B89B87400CCE068 /* DHLightGameManager.h */,
+				E541C4811B89B87400CCE068 /* DHLightGameManager.m */,
+				E541C4831B89B96A00CCE068 /* DHLightView.h */,
+				E541C4841B89B96A00CCE068 /* DHLightView.m */,
+				E541C4641B89B85D00CCE068 /* Main.storyboard */,
+				E541C4671B89B85D00CCE068 /* Images.xcassets */,
+				E541C4691B89B85D00CCE068 /* LaunchScreen.xib */,
+				E541C45A1B89B85D00CCE068 /* Supporting Files */,
+			);
+			path = TurnOffTheLights;
+			sourceTree = "<group>";
+		};
+		E541C45A1B89B85D00CCE068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E541C45B1B89B85D00CCE068 /* Info.plist */,
+				E541C45C1B89B85D00CCE068 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E541C4731B89B85D00CCE068 /* TurnOffTheLightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E541C4761B89B85D00CCE068 /* TurnOffTheLightsTests.m */,
+				E541C4741B89B85D00CCE068 /* Supporting Files */,
+			);
+			path = TurnOffTheLightsTests;
+			sourceTree = "<group>";
+		};
+		E541C4741B89B85D00CCE068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E541C4751B89B85D00CCE068 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E541C4561B89B85C00CCE068 /* TurnOffTheLights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E541C47A1B89B85D00CCE068 /* Build configuration list for PBXNativeTarget "TurnOffTheLights" */;
+			buildPhases = (
+				E541C4531B89B85C00CCE068 /* Sources */,
+				E541C4541B89B85C00CCE068 /* Frameworks */,
+				E541C4551B89B85C00CCE068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurnOffTheLights;
+			productName = TurnOffTheLights;
+			productReference = E541C4571B89B85D00CCE068 /* TurnOffTheLights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E541C46F1B89B85D00CCE068 /* TurnOffTheLightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E541C47D1B89B85D00CCE068 /* Build configuration list for PBXNativeTarget "TurnOffTheLightsTests" */;
+			buildPhases = (
+				E541C46C1B89B85D00CCE068 /* Sources */,
+				E541C46D1B89B85D00CCE068 /* Frameworks */,
+				E541C46E1B89B85D00CCE068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E541C4721B89B85D00CCE068 /* PBXTargetDependency */,
+			);
+			name = TurnOffTheLightsTests;
+			productName = TurnOffTheLightsTests;
+			productReference = E541C4701B89B85D00CCE068 /* TurnOffTheLightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E541C44F1B89B85C00CCE068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = DreamHack;
+				TargetAttributes = {
+					E541C4561B89B85C00CCE068 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E541C46F1B89B85D00CCE068 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E541C4561B89B85C00CCE068;
+					};
+				};
+			};
+			buildConfigurationList = E541C4521B89B85C00CCE068 /* Build configuration list for PBXProject "TurnOffTheLights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E541C44E1B89B85C00CCE068;
+			productRefGroup = E541C4581B89B85D00CCE068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E541C4561B89B85C00CCE068 /* TurnOffTheLights */,
+				E541C46F1B89B85D00CCE068 /* TurnOffTheLightsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E541C4551B89B85C00CCE068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E541C4661B89B85D00CCE068 /* Main.storyboard in Resources */,
+				E541C46B1B89B85D00CCE068 /* LaunchScreen.xib in Resources */,
+				E541C4681B89B85D00CCE068 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E541C46E1B89B85D00CCE068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E541C4531B89B85C00CCE068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E541C4821B89B87400CCE068 /* DHLightGameManager.m in Sources */,
+				E541C4631B89B85D00CCE068 /* ViewController.m in Sources */,
+				E541C4601B89B85D00CCE068 /* AppDelegate.m in Sources */,
+				E541C4851B89B96A00CCE068 /* DHLightView.m in Sources */,
+				E541C45D1B89B85D00CCE068 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E541C46C1B89B85D00CCE068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E541C4771B89B85D00CCE068 /* TurnOffTheLightsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E541C4721B89B85D00CCE068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E541C4561B89B85C00CCE068 /* TurnOffTheLights */;
+			targetProxy = E541C4711B89B85D00CCE068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E541C4641B89B85D00CCE068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E541C4651B89B85D00CCE068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E541C4691B89B85D00CCE068 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E541C46A1B89B85D00CCE068 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E541C4781B89B85D00CCE068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E541C4791B89B85D00CCE068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E541C47B1B89B85D00CCE068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TurnOffTheLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E541C47C1B89B85D00CCE068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TurnOffTheLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E541C47E1B89B85D00CCE068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnOffTheLightsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurnOffTheLights.app/TurnOffTheLights";
+			};
+			name = Debug;
+		};
+		E541C47F1B89B85D00CCE068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnOffTheLightsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurnOffTheLights.app/TurnOffTheLights";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E541C4521B89B85C00CCE068 /* Build configuration list for PBXProject "TurnOffTheLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E541C4781B89B85D00CCE068 /* Debug */,
+				E541C4791B89B85D00CCE068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E541C47A1B89B85D00CCE068 /* Build configuration list for PBXNativeTarget "TurnOffTheLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E541C47B1B89B85D00CCE068 /* Debug */,
+				E541C47C1B89B85D00CCE068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E541C47D1B89B85D00CCE068 /* Build configuration list for PBXNativeTarget "TurnOffTheLightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E541C47E1B89B85D00CCE068 /* Debug */,
+				E541C47F1B89B85D00CCE068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E541C44F1B89B85C00CCE068 /* Project object */;
+}
